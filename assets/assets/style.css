@@ -23,6 +23,21 @@ h1 {
     color: #3DDAB4;
 
 }
+
+.lineThrough {
+    animation: lineThrough 400ms forwards;
+    color: gray;
+}
+@keyframes lineThrough {
+    0% {
+      text-decoration: 2px line-through #0000;
+    }
+    100% {
+      text-decoration: 2px line-through #000;
+    }
+  }
+
+
 @media only screen and (max-width: 600px){
     .container {
         display: grid;
